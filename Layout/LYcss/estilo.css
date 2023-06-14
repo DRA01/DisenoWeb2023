@@ -1,0 +1,42 @@
+body{
+    width: 90%;    /*Ancho del borde*/ 
+    margin: 0 auto;
+}
+.banner{
+    background-image: linear-gradient(blue, green);
+    text-align: center;
+    height: 70px;
+    padding: 10%; /*Margen interno*/
+
+}
+.banner:hover{
+    background-image: linear-gradient(white, black);
+}
+.menu{
+    background-color: red;
+    float: left;
+    width: 15%;
+}
+.menu li:hover{
+    background-color: yellowgreen;
+    
+}
+.contenido{
+    background-color: aqua;
+    float: left;
+    width: 85%;
+}
+.contenido .Principal{
+    float: left;
+    width: 80%;
+}
+.contenido .Secundario{
+    background-color: rgb(252, 126, 0);
+    float: left;
+    width: 20%;
+}
+.footer{
+    background-color: black;
+    clear: both;
+    color: white;
+}
